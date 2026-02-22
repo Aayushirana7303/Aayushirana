@@ -1,0 +1,98 @@
+/* Apply background gradient */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #d59fe6, #cd7d9d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Outer box style */
+.outer-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+}
+
+/* Inner box for form */
+.inner-box {
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Header styles */
+.login-header h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #ea95b7;
+}
+
+.login-header p {
+    text-align: center;
+    color: #777;
+    font-size: 1.1em;
+}
+
+/* Form input styles */
+.login-body p {
+    margin-bottom: 20px;
+}
+
+.login-body label {
+    font-size: 1em;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-body input[type="email"],
+.login-body input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #f9f9f9;
+}
+
+.login-body input[type="submit"] {
+    background-color: #d10858;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.login-body input[type="submit"]:hover {
+    background-color: #fe9ec9;
+}
+
+/* Footer styles */
+.login-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-footer a {
+    color: #fbb6d2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-footer a:hover {
+    text-decoration: underline;
+}
